@@ -1,3 +1,6 @@
-public interface ISaveContainer
+namespace UnityBinaryFileSaver
 {
+    public interface ISaveContainer
+    {
+    }
 }

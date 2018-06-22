@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityBinaryFileSaver;
 
 class Example : MonoBehaviour
 {
-    public Text input;
-    public Text info;
+    public Text input = null;
+    public Text info = null;
     public GameObject infoContainer;
     public string saveFileName = "example.savefile";
 

@@ -1,9 +1,12 @@
 using System.IO;
 
-public interface ISaveFile
+namespace UnityBinaryFileSaver
 {
-    FileStream Readfile { get; }
-    FileStream Writefile { get; }
-    ISaveContainer Data { get; set; }
-    void Close();
+    public interface ISaveFile
+    {
+        FileStream Readfile { get; }
+        FileStream Writefile { get; }
+        ISaveContainer Data { get; set; }
+        void Close();
+    }
 }
