@@ -1,5 +1,7 @@
 # Unity Binary File Saver
 
+![Logo](https://user-images.githubusercontent.com/25737761/166617584-5b05ba5f-2b75-464f-b019-715e3437041e.png)
+
 Very basic binary saving / loading functionality for Unity.
 
 ## How to use
